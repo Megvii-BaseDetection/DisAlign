@@ -50,9 +50,9 @@ Thanks for the following projects:
 If you are using the DisAlign in your research or with to refer to the baseline results publised in this repo, please use the following BibTex entry.
 
 ```latex
-@inproceedings{liu2020ppnet,
+@inproceedings{zhang2021disalign,
   title={Distribution Alignment: A Unified Framework for Long-tail Visual Recognition.},
-  author={Zhang, Songyang and Li, Zeming and Yan, Shipeng and H0e, Xuming and Sun, Jian},
+  author={Zhang, Songyang and Li, Zeming and Yan, Shipeng and He, Xuming and Sun, Jian},
   booktitle={CVPR},
   year={2021}
 }
