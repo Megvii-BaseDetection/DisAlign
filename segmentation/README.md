@@ -65,9 +65,9 @@ pods_test --num-gpus 8
 | Name                                                         | Cls Norm | input size | lr sched | train time (s/iter) | train mem (GB) | box AP | mask AP | Trained Model                             |
 | ------------------------------------------------------------ | ---------- | ---------- | -------- | ------------------- | -------------- | ------ | ------- | ----------------------------------------- |
 | [MaskRCNN-X101-FPN](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.1x) | |640-800        | 90k      |           |            |  24.8  | 25.2   | [LINK](model_final.pth) |
-| [MaskRCNN-X101-FPN](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.1x) | Cosine|640-800        | 90k      |           |            | 27.4   | 28.4   | [LINK](model_final.pth) |
+| [MaskRCNN-X101-FPN](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.1x) | Cosine| 640-800        | 90k      |           |            | 27.4   | 28.4   | [LINK](model_final.pth) |
 | [MaskRCNN-X101-FPN-DisAlign](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.1x) | | 640-800        | 90k      |           |            |   26.9 | 27.3   | [LINK](model_final.pth) |
-| [MaskRCNN-X101-FPN-DisAlign](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.1x) | Cosine | 640-800        | 90k      |           |            |    |    | [LINK](model_final.pth) |
+| [MaskRCNN-X101-FPN-DisAlign](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.1x) | Cosine | 640-800        | 90k      |           |          | 29.6   | 30.2   | [LINK](model_final.pth) |
 
 #### Cascade R-CNN
 

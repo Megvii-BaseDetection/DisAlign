@@ -1,7 +1,7 @@
-# Distribution Alignment
 
 <!-- <div align=center><img src=".src/disalign.png"><div align=mi> -->
-<img src=".src/disalign.png" align="middle" width="500"/>
+<div align=center><img src=".src/disalign.png" align="middle" width="600"/><div align=left>
+
 
 Implementation of "Distribution Alignment: A Unified Framework for Long-tail Visual Recognition"(CVPR 2021)
 
@@ -9,29 +9,32 @@ Implementation of "Distribution Alignment: A Unified Framework for Long-tail Vis
 
 We implement the classification, object detection and instance segmentation tasks based on our [cvpods](https://github.com/Megvii-BaseDetection/cvpods). The users should **install cvpods first** and run the experiments in this repo.
 
+# Changelog
+- 4.12.2021 Update the README
 
-## 1. Image Classification
+# 1. Image Classification
 We support the the following three datasets:
 - ImageNet-LT Dataset
 - iNaturalist-2018 Dataset
 - Place-LT Dataset
 
-We refer the user to [CLS_README](classification/README) for more details.
+We refer the user to [CLS_README](classification/README.md) for more details.
 
-## 2. Object Detection/Instance Segmentation
+# 2. Object Detection/Instance Segmentation
 We support the two versions of the LVIS dataset:
 - LVIS v0.5
 - LVIS v1.0
 
 **Highlight**
-1. To speedup the evaluation on LVIS dataset, we provide the C++ optimized evaluation api by modifying the [coco_eval(C++)]() in `cvpods`.
+1. To speedup the evaluation on LVIS dataset, we provide the C++ optimized evaluation api by modifying the [coco_eval(C++)](https://github.com/Megvii-BaseDetection/cvpods/blob/master/cvpods/layers/csrc/cocoeval/cocoeval.cpp) in `cvpods`.
+  - The C++ version lvis_eval API will save **~30% time** when calculating the mAP.
 2. We provide support for the metric of `AP_fixed` and `AP_pool` proposed in [large-vocab-devil](https://github.com/achalddave/large-vocab-devil)
 3. We will support more recent works on long-tail detection in this project(e.g. EQLv2, CenterNet2, etc.) in the future.
 
-We refer the user to [DET_README](segmentation/README) for more details.
+We refer the user to [DET_README](segmentation/README.md) for more details.
 
 
-## 3. Semantic Segmentation
+# 3. Semantic Segmentation
 
 We adopt the mmsegmentation as the codebase for runing all experiments of DisAlign.
 Currently, the user should use [DisAlign_Seg](TODO) for the semantic segmentation experiments.
