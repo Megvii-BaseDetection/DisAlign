@@ -10,7 +10,17 @@ Implementation of "Distribution Alignment: A Unified Framework for Long-tail Vis
 We implement the classification, object detection and instance segmentation tasks based on our [cvpods](https://github.com/Megvii-BaseDetection/cvpods). The users should **install cvpods first** and run the experiments in this repo.
 
 # Changelog
-- 4.12.2021 Update the README
+- **4.23.2021** Update the **DisAlign** on LVIS v0.5(Mask R-CNN + Res50)
+- **4.12.2021** Update the README
+
+# 0. How to Use
+- Step-1: Install the latest [cvpods](https://github.com/Megvii-BaseDetection/cvpods).
+- Step-2: `cd cvpods`
+- Step-3: Prepare dataset for different tasks.
+- Step-4: `git clone https://github.com/Megvii-BaseDetection/DisAlign playground_disalign`
+- Step-5: Enter one folder and run `pods_train --num-gpus 8`
+- Step-6: Use `pods_test --num-gpus 8` to evaluate the last the checkpoint
+
 
 # 1. Image Classification
 We support the the following three datasets:
