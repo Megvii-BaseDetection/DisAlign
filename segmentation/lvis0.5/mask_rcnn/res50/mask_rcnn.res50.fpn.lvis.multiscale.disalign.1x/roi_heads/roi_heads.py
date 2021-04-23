@@ -4,7 +4,7 @@ from typing import List, Union, Dict
 import torch
 from torch import nn
 from cvpods.modeling.roi_heads import StandardROIHeads
-from cvpods.modeling.roi_heads.fast_rcnn import DisAlignFastRCNNOutputLayers
+from cvpods.modeling.roi_heads.disalign_fast_rcnn import DisAlignFastRCNNOutputLayers
 from cvpods.modeling.poolers import ROIPooler
 from cvpods.layers import ShapeSpec
 from cvpods.structures import Instances, Boxes

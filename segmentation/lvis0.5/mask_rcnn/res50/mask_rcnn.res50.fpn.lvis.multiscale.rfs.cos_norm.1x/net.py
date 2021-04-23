@@ -21,7 +21,7 @@ def build_proposal_generator(cfg, input_shape):
 
 
 def build_roi_heads(cfg, input_shape):
-    from cvpods.modeling.roi_heads.fast_rcnn import CosineFastRCNNOutputLayers
+    from cvpods.modeling.roi_heads.disalign_fast_rcnn import CosineFastRCNNOutputLayers
     roi_head = StandardROIHeads(cfg, input_shape)
     
     roi_head.box_predictor = CosineFastRCNNOutputLayers(
