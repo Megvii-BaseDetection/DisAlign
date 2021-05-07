@@ -13,10 +13,16 @@ Please put the dataset and annotation into the `cvpods` project as following:
     ├── lvis
     │     ├── lvis_v0.5_train.json
     │     ├── lvis_v0.5_val.json
+    │     ├── num_shots_v0.5.npy
     │     ├── lvis_v1_train.json
-    │     └── lvis_v1_val.json
+    │     ├── lvis_v1_val.json
+    │     └── num_shots_v1.0.json
     └── .....
 ```
+Related files can be downloaded:
+- [num_shots_v0.5.npy](https://github.com/Megvii-BaseDetection/DisAlign/releases/download/LVIS/num_shots_v0.5.npy)
+- [num_shots_v1.0.json](https://github.com/Megvii-BaseDetection/DisAlign/releases/download/LVIS/num_shots_v1.0.json)
+
 ## Training and Inference
 - Enter one project folder 
 - Traning with:
