@@ -47,13 +47,13 @@ pods_test --num-gpus 8
 
 | Name                                                          | Cls Norm | input size | lr sched | train time (s/iter) | train mem (GB) | box AP | mask AP | Trained Model                             |
 | ------------------------------------------------------------ | ---------- | ---------- | -------- | ------------------- | -------------- | ------ | ------- | ----------------------------------------- |
-| [MaskRCNN-R50-FPN](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.1x) | |640-800        | 90k      | 0.486               | 5.26           | 20.4   | 20.7    | [LINK](model_final.pth) |
-| [MaskRCNN-R50-FPN](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.cos_norm.1x) | Cosine|640-800        | 90k      | 0.500               | 5.26           | 23.0   | 23.8    | [LINK](model_final.pth) |
-| [MaskRCNN-R50-FPN-RFS](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.rfs.1x) | |640-800    | 90k      | 0.485               | 5.25           | 23.5   | 24.2    | [LINK](model_final.pth) |
-| [MaskRCNN-R50-FPN-RFS](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.rfs.1x) | Cosine| 640-800    | 90k      | 0.485               | 5.25           |  24.5   | 24.9   | [LINK](model_final.pth) |
-| [MaskRCNN-R50-FPN-DisAlign](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.disalign.1x) | | 640-800        | 90k      | 0.486               | 5.26           |  23.7  | 24.3    | [LINK](model_final.pth) |
-| [MaskRCNN-R50-FPN-DisAlign](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.cos_norm.disalign.1x) | Cosine|  640-800        | 90k      | 0.500               | 5.26    |  26.3 | 27.1  | [LINK](model_final.pth) |
-| [MaskRCNN-R50-FPN-RFS-DisAlign](lvis0.5/mask_rcnn.res50.fpn.lvis.multiscale.cos_norm.disalign.1x) | Cosine| 640-800        | 90k      | 0.500               | 5.26    |  27.1 | 27.5  | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN](lvis0.5/mask_rcnn/res50/mask_rcnn.res50.fpn.lvis.multiscale.1x) | |640-800        | 90k      | 0.486               | 5.26           | 20.4   | 20.7    | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN](lvis0.5/mask_rcnn/res50/mask_rcnn.res50.fpn.lvis.multiscale.cos_norm.1x) | Cosine|640-800        | 90k      | 0.500               | 5.26           | 23.0   | 23.8    | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN-RFS](lvis0.5/mask_rcnn/res50/mask_rcnn.res50.fpn.lvis.multiscale.rfs.1x) | |640-800    | 90k      | 0.485               | 5.25           | 23.5   | 24.2    | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN-RFS](lvis0.5/mask_rcnn/res50/mask_rcnn.res50.fpn.lvis.multiscale.rfs.cos_norm.1x) | Cosine| 640-800    | 90k      | 0.485               | 5.25           |  24.5   | 24.9   | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN-DisAlign](lvis0.5/mask_rcnn/res50/mask_rcnn.res50.fpn.lvis.multiscale.disalign.1x) | | 640-800        | 90k      | 0.486               | 5.26           |  23.7  | 24.3    | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN-DisAlign](lvis0.5/mask_rcnn/res50/mask_rcnn.res50.fpn.lvis.multiscale.cos_norm.disalign.1x) | Cosine|  640-800        | 90k      | 0.500               | 5.26    |  26.3 | 27.1  | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN-RFS-DisAlign](lvis0.5/mask_rcnn/res50/mask_rcnn.res50.fpn.lvis.multiscale.rfs.cos_norm.disalign.1x) | Cosine| 640-800        | 90k      | 0.500               | 5.26    |  27.1 | 27.5  | [LINK](model_final.pth) |
 
 #### ResNet-101
 
@@ -84,12 +84,12 @@ pods_test --num-gpus 8
 #### ResNet-50
 | Name                                                         | Cls Norm| input size | lr sched | train time (s/iter) | train mem (GB) | box AP | mask AP | Trained Model                             |
 | ------------------------------------------------------------ | ---------- | ---------- | -------- | ------------------- | -------------- | ------ | ------- | ----------------------------------------- |
-| [MaskRCNN-R50-FPN](lvis1.0/mask_rcnn.res50.fpn.lvis.multiscale.1x) | |640-800        | 180k      | 0.486               | 5.26           | 18.8   | 18.3    | [LINK](model_final.pth) |
-| [MaskRCNN-R50-FPN](lvis1.0/mask_rcnn.res50.fpn.lvisv1.multiscale.cos_norm.1x) | Cosine | 640-800        | 180k      | 0.500               | 5.26           | 21.3   | 21.1    | [LINK](model_final.pth) |
-| [MaskRCNN-R50-FPN-RFS](lvis1.0/mask_rcnn.res50.fpn.lvisv1.multiscale.rfs.1x) | |640-800    | 180k      | 0.485               | 5.25           | 22.9   | 22.5    | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN](lvis1.0/mask_rcnn/res50/mask_rcnn.res50.fpn.lvisv1.multiscale.1x) | |640-800        | 180k      | 0.486               | 5.26           | 18.8   | 18.3    | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN](lvis1.0/mask_rcnn/res50/mask_rcnn.res50.fpn.lvisv1.multiscale.cos_norm.1x) | Cosine | 640-800        | 180k      | 0.500               | 5.26           | 21.3   | 21.1    | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN-RFS](lvis1.0/mask_rcnn/res50/mask_rcnn.res50.fpn.lvisv1.multiscale.rfs.1x) | |640-800    | 180k      | 0.485               | 5.25           | 22.9   | 22.5    | [LINK](model_final.pth) |
 | MaskRCNN-R50-FPN-RFS(A1)  || 640-800    | 180k      |             |        |     | 22.3    | |
-| [MaskRCNN-R50-FPN-DisAlign](lvis1.0/mask_rcnn.res50.fpn.lvis.multiscale.1x) | |640-800        | 180k      | 0.486               | 5.26           | 21.9  | 21.3   | [LINK](model_final.pth) |
-| [MaskRCNN-R50-FPN-DisAlign](lvis1.0/mask_rcnn.res50.fpn.lvisv1.multiscale.cos_norm.1x)| Cosine | 640-800        | 180k      | 0.500               | 5.26           |  24.8  | 24.2  | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN-DisAlign](lvis1.0/mask_rcnn/res50/mask_rcnn.res50.fpn.lvisv1.multiscale.disalign.1x) | |640-800        | 180k      | 0.486               | 5.26           | 21.9  | 21.3   | [LINK](model_final.pth) |
+| [MaskRCNN-R50-FPN-DisAlign](lvis1.0/mask_rcnn/res50/mask_rcnn.res50.fpn.lvisv1.multiscale.cos_norm.disalign.1x)| Cosine | 640-800        | 180k      | 0.500               | 5.26           |  24.8  | 24.2  | [LINK](model_final.pth) |
 
 
 #### ResNet-101
