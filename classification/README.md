@@ -4,8 +4,10 @@
 
 <details>
 <summary>ImageNet-LT</summary>
+  
 - Download ImageNet Full dataset 
 - ImageNet-LT list and frequency file:
+
 ```
 # train/val/test split
 https://drive.google.com/drive/folders/1j7Nkfe6ZhzKFXePHdsseeeGI877Xu1yf
@@ -14,6 +16,8 @@ https://drive.google.com/drive/folders/1j7Nkfe6ZhzKFXePHdsseeeGI877Xu1yf
 wget https://github.com/Megvii-BaseDetection/DisAlign/releases/download/LVIS/imagenet_lt_category_frequency.json
 ```
 
+- Put the data as following:
+  
 ```bash
 cvpods/datasets/imagenetlt
 ├── imagenet_lt_category_frequency.json
