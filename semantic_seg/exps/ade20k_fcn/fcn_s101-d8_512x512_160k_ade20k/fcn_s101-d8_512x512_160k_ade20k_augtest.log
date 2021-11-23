@@ -1,0 +1,172 @@
+2021-11-23 18:50:38,207 - mmseg - INFO - Loaded 2000 images
+load checkpoint from local path: /data/mmseg_ckpts/model_zoo/fcn/ade20k/fcn_s101-d8_512x512_160k_ade20k_20200807_145416-d3160329.pth
+load checkpoint from local path: /data/mmseg_ckpts/model_zoo/fcn/ade20k/fcn_s101-d8_512x512_160k_ade20k_20200807_145416-d3160329.pth
+load checkpoint from local path: /data/mmseg_ckpts/model_zoo/fcn/ade20k/fcn_s101-d8_512x512_160k_ade20k_20200807_145416-d3160329.pth
+load checkpoint from local path: /data/mmseg_ckpts/model_zoo/fcn/ade20k/fcn_s101-d8_512x512_160k_ade20k_20200807_145416-d3160329.pth
+load checkpoint from local path: /data/mmseg_ckpts/model_zoo/fcn/ade20k/fcn_s101-d8_512x512_160k_ade20k_20200807_145416-d3160329.pth
+load checkpoint from local path: /data/mmseg_ckpts/model_zoo/fcn/ade20k/fcn_s101-d8_512x512_160k_ade20k_20200807_145416-d3160329.pth
+load checkpoint from local path: /data/mmseg_ckpts/model_zoo/fcn/ade20k/fcn_s101-d8_512x512_160k_ade20k_20200807_145416-d3160329.pth
+load checkpoint from local path: /data/mmseg_ckpts/model_zoo/fcn/ade20k/fcn_s101-d8_512x512_160k_ade20k_20200807_145416-d3160329.pth
+[>>>>>>>>>>>>>>>>>>>>>>>>>>] 2000/2000, 0.9 task/s, elapsed: 2106s, ETA:     0sper class results:
+
++---------------------+-------+-------+
+|        Class        |  IoU  |  Acc  |
++---------------------+-------+-------+
+|         wall        | 75.24 | 89.11 |
+|       building      | 81.25 | 92.89 |
+|         sky         | 93.82 | 96.68 |
+|        floor        | 79.64 | 89.73 |
+|         tree        | 72.36 | 87.73 |
+|       ceiling       | 81.41 |  88.6 |
+|         road        | 83.94 | 90.36 |
+|         bed         | 87.69 | 96.18 |
+|      windowpane     | 60.11 | 77.78 |
+|        grass        | 67.82 | 84.03 |
+|       cabinet       | 60.01 | 74.11 |
+|       sidewalk      | 64.96 | 78.95 |
+|        person       | 79.29 | 91.38 |
+|        earth        | 32.28 | 44.16 |
+|         door        | 42.81 | 54.14 |
+|        table        | 58.32 |  72.1 |
+|       mountain      | 49.79 |  64.0 |
+|        plant        | 50.95 | 61.11 |
+|       curtain       |  72.5 | 84.22 |
+|        chair        | 57.03 | 70.04 |
+|         car         | 84.02 |  91.7 |
+|        water        | 45.72 | 56.73 |
+|       painting      | 71.74 | 84.35 |
+|         sofa        | 58.62 | 79.46 |
+|        shelf        | 44.27 | 59.19 |
+|        house        | 47.19 | 63.99 |
+|         sea         | 43.66 | 75.74 |
+|        mirror       |  61.0 | 68.38 |
+|         rug         | 54.35 | 65.42 |
+|        field        | 32.38 | 50.41 |
+|       armchair      | 35.07 | 47.34 |
+|         seat        | 59.56 | 81.15 |
+|        fence        | 36.98 | 46.65 |
+|         desk        | 47.81 | 69.95 |
+|         rock        | 42.99 | 68.11 |
+|       wardrobe      | 45.03 | 62.51 |
+|         lamp        | 64.93 | 76.92 |
+|       bathtub       | 74.93 | 84.93 |
+|       railing       | 33.05 | 42.55 |
+|       cushion       | 50.49 | 61.66 |
+|         base        | 21.79 | 30.49 |
+|         box         | 26.42 | 37.06 |
+|        column       | 42.57 | 52.87 |
+|      signboard      | 35.43 | 45.45 |
+|   chest of drawers  | 39.83 | 53.43 |
+|       counter       | 27.81 | 38.86 |
+|         sand        | 27.51 |  54.3 |
+|         sink        | 70.59 | 79.66 |
+|      skyscraper     | 41.25 | 53.36 |
+|      fireplace      | 75.03 | 90.08 |
+|     refrigerator    | 71.59 | 84.03 |
+|      grandstand     | 36.75 | 69.58 |
+|         path        | 22.47 | 29.41 |
+|        stairs       | 29.59 | 35.24 |
+|        runway       | 69.05 | 91.36 |
+|         case        |  47.8 | 71.43 |
+|      pool table     | 92.46 | 96.83 |
+|        pillow       | 51.26 |  63.0 |
+|     screen door     | 58.41 | 72.37 |
+|       stairway      | 25.28 | 29.55 |
+|        river        | 11.37 | 17.23 |
+|        bridge       | 44.42 | 50.94 |
+|       bookcase      | 39.37 |  56.2 |
+|        blind        | 39.18 | 43.61 |
+|     coffee table    | 61.18 | 77.82 |
+|        toilet       | 86.32 | 91.09 |
+|        flower       | 34.75 | 46.46 |
+|         book        | 48.63 | 67.78 |
+|         hill        |  6.26 |  9.36 |
+|        bench        | 41.55 | 51.93 |
+|      countertop     | 63.01 | 77.41 |
+|        stove        | 74.65 | 77.85 |
+|         palm        | 44.91 | 68.61 |
+|    kitchen island   |  39.1 | 74.85 |
+|       computer      | 57.97 | 68.27 |
+|     swivel chair    | 43.66 | 59.11 |
+|         boat        |  46.0 | 51.21 |
+|         bar         |  30.4 | 37.16 |
+|    arcade machine   | 30.84 | 33.19 |
+|        hovel        | 26.63 | 42.53 |
+|         bus         | 83.71 | 94.94 |
+|        towel        | 60.47 | 69.73 |
+|        light        | 46.58 | 49.48 |
+|        truck        | 13.11 | 17.23 |
+|        tower        | 36.53 |  47.0 |
+|      chandelier     | 64.65 | 77.39 |
+|        awning       | 21.16 | 23.14 |
+|     streetlight     | 23.79 | 29.75 |
+|        booth        |  57.4 | 66.42 |
+| television receiver | 67.79 |  78.7 |
+|       airplane      | 52.05 | 71.52 |
+|      dirt track     |  5.45 |  11.5 |
+|       apparel       | 28.89 | 36.88 |
+|         pole        | 15.04 | 18.74 |
+|         land        |  6.17 |  7.91 |
+|      bannister      | 10.21 | 12.79 |
+|      escalator      | 14.68 | 16.47 |
+|       ottoman       | 42.76 | 51.28 |
+|        bottle       | 36.17 | 46.87 |
+|        buffet       | 44.57 | 49.88 |
+|        poster       | 23.17 | 27.17 |
+|        stage        | 14.24 | 18.12 |
+|         van         | 43.43 | 56.96 |
+|         ship        | 61.68 | 95.71 |
+|       fountain      | 16.18 | 16.81 |
+|    conveyer belt    | 35.95 | 90.23 |
+|        canopy       | 16.96 |  24.5 |
+|        washer       | 66.01 | 72.14 |
+|      plaything      | 27.95 | 41.62 |
+|    swimming pool    | 59.66 | 76.03 |
+|        stool        |  42.6 | 53.32 |
+|        barrel       | 64.03 | 75.05 |
+|        basket       |  27.4 | 33.68 |
+|      waterfall      | 64.85 |  76.0 |
+|         tent        | 94.43 | 98.59 |
+|         bag         |  6.8  |  8.03 |
+|       minibike      | 61.19 | 69.71 |
+|        cradle       | 75.67 |  92.6 |
+|         oven        |  52.8 |  72.0 |
+|         ball        | 45.31 | 66.28 |
+|         food        |  46.3 | 52.93 |
+|         step        | 11.22 | 12.13 |
+|         tank        | 42.48 | 50.85 |
+|      trade name     | 23.38 | 25.41 |
+|      microwave      | 37.72 | 40.43 |
+|         pot         | 42.56 | 48.89 |
+|        animal       | 53.23 | 59.27 |
+|       bicycle       | 47.15 | 68.92 |
+|         lake        | 58.79 |  63.8 |
+|      dishwasher     | 61.96 | 72.45 |
+|        screen       | 66.68 |  83.3 |
+|       blanket       |  8.61 |  9.81 |
+|      sculpture      | 38.93 | 61.17 |
+|         hood        |  54.3 | 61.27 |
+|        sconce       | 42.77 | 47.54 |
+|         vase        | 41.61 | 56.16 |
+|    traffic light    | 32.58 | 44.39 |
+|         tray        |  9.4  | 12.41 |
+|        ashcan       | 39.64 | 49.04 |
+|         fan         |  57.0 | 68.38 |
+|         pier        |  59.4 | 77.79 |
+|      crt screen     |  6.22 | 10.87 |
+|        plate        |  41.1 | 51.55 |
+|       monitor       | 47.59 | 51.88 |
+|    bulletin board   | 37.29 | 45.94 |
+|        shower       |  0.0  |  0.0  |
+|       radiator      | 43.57 | 49.09 |
+|        glass        | 10.65 | 11.37 |
+|        clock        | 35.29 | 37.73 |
+|         flag        | 27.21 | 28.14 |
++---------------------+-------+-------+
+Summary:
+
++-------+-------+-------+----------+----------+----------+----------+----------+----------+
+|  aAcc |  mIoU |  mAcc | mHeadIoU | mBodyIoU | mTailIoU | mHeadAcc | mBodyAcc | mTailAcc |
++-------+-------+-------+----------+----------+----------+----------+----------+----------+
+| 81.71 | 46.16 | 57.34 |  67.56   |  47.99   |  39.12   |  79.37   |  61.73   |  48.24   |
++-------+-------+-------+----------+----------+----------+----------+----------+----------+
